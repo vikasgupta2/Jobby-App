@@ -173,7 +173,7 @@ class JobDetail extends Component {
                 alt="job details company logo"
               />
               <div className="first-inner-card">
-                <p>{title}</p>
+                <h1>{title}</h1>
                 <p>{rating}</p>
               </div>
             </div>

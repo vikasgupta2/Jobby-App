@@ -6,14 +6,16 @@ const Home = () => (
   <>
     <Header />
     <div className="main-container-home">
-      <div>
-        <h1>Find The Job That Fits Your Life</h1>
-        <p>
+      <div className="inner-home-container">
+        <h1 className="heading-home">Find The Job That Fits Your Life</h1>
+        <p className="paragraph-home">
           Millions of people are searching for jobs, salary information, company
           reviews. Find the jobs that fits your abilities and potential.
         </p>
         <Link to="/jobs">
-          <button type="button">Find Jobs</button>
+          <button type="button" className="jobBtn">
+            Find Jobs
+          </button>
         </Link>
       </div>
     </div>

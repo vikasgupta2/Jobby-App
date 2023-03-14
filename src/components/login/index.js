@@ -51,26 +51,32 @@ class Login extends Component {
             className="website-logo"
           />
           <br />
-          <label htmlFor="username">USERNAME</label>
-          <br />
+          <label htmlFor="username" className="label-login">
+            USERNAME
+          </label>
           <input
             type="text"
             onChange={this.getUsername}
             placeholder="Username"
             id="username"
+            className="inputEle"
           />
           <br />
-          <label htmlFor="password">PASSWORD</label>
-          <br />
+          <label htmlFor="password" className="label-login">
+            PASSWORD
+          </label>
           <input
             type="password"
             onChange={this.getPassword}
             placeholder="Password"
             id="password"
+            className="inputEle"
           />
           <br />
 
-          <button type="submit">Login</button>
+          <button type="submit" className="submitBtn">
+            Login
+          </button>
           <p id="error-msg" />
         </form>
       </div>

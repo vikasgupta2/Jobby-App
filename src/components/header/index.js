@@ -18,21 +18,25 @@ const Header = props => {
           alt="website logo"
         />
       </Link>
-      <ul className="">
-        <li>
+      <ul className="menuContainer">
+        <li className="list-item">
           <Link to="/">
-            <button type="button">Home</button>
+            <button type="button" className="menuBtn">
+              Home
+            </button>
           </Link>
         </li>
-        <li>
+        <li className="list-item">
           <Link to="/jobs">
-            <button type="button">Jobs</button>
+            <button type="button" className="menuBtn">
+              Jobs
+            </button>
           </Link>
         </li>
       </ul>
-      <li>
+      <li className="list-item">
         <Link to="/login">
-          <button type="button" onClick={removeCookies}>
+          <button type="button" className="LogoutBtn" onClick={removeCookies}>
             Logout
           </button>
         </Link>
