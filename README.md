@@ -1,6 +1,6 @@
 # Jobby App
 
- ## Project is under Development, visit: https://jobby-app.vikasgupta.tech
+ 
  
   
 Implemented Jobby App where users can log in and can see a list of jobs with
